@@ -1,0 +1,92 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="switch_style_button">
+
+        <!-- <item name="android:background">@drawable/button_selector</item> -->
+        <item name="android:layout_marginLeft">@dimen/dimen_10dip</item>
+        <item name="android:layout_marginRight">@dimen/dimen_10dip</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_10dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="radio_style_button">
+        <item name="android:layout_marginLeft">@dimen/dimen_10dip</item>
+        <item name="android:layout_marginRight">@dimen/dimen_10dip</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_10dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="style_alert_button">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/alert_button_selector</item>
+        <item name="android:dateTextAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <!--
+        <item name="android:windowBackground">@null</item>  
+		<item name="android:windowNoTitle">true</item>  
+		<item name="android:windowIsFloating">true</item>
+        -->
+    </style>
+
+    <style name="style_textview">
+        <item name="android:textColor">@drawable/textview_selector</item>
+    </style>
+
+    <style name="style_myedittext">
+        <item name="android:background">@drawable/edittext_selector</item>
+        <item name="android:dateTextAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="style_myseekbar">
+        <item name="android:thumbOffset">-1dip</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progressdrawable_layerlist</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_selector</item>
+    </style>
+
+    <style name="btn_green">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@drawable/selector_btn_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_green</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_margin">5.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">@color/btn_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.5</item>
+    </style>
+
+    <style name="btn_green_big" parent="@style/btn_green">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingBottom">7.0dip</item>
+    </style>
+
+    <style name="textAppearanceMedium" parent="@android:style/TextAppearance.Medium" />
+
+</resources>

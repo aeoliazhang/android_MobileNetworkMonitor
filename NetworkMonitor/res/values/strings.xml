@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NetworkMonitor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- network monitor setting string -->
+    <string name="setting_title">流量设置</string>
+    <string name="setting_label_service">开启流量控制</string>
+    <string name="setting_label_month_package">每月流量套餐</string>
+    <string name="setting_label_start_day">每月结算日</string>
+    <string name="setting_label_auto_adjust">自动校正流量</string>
+    <string name="setting_label_auto_adjust_days">定期自动校准</string>
+    <string name="setting_label_auto_adjust_sms">流量短信设置</string>
+    <string name="setting_label_float_window">流量浮动窗</string>
+    <string name="setting_label_statistics_prompt">流量统计提示</string>
+    <string name="setting_label_exceeding_prompt">超额提醒</string>
+    <string name="setting_label_month_surplus_warning">月剩余流量预警</string>
+    <string name="setting_label_day_prompt">每日流量提醒</string>
+    <string name="setting_label_clear_usage">清空统计数据</string>
+    <string name="setting_altert_trigger_title">Alcatel流量监控提示</string>
+    <string name="setting_altert_trigger_service_close">	    "若关闭流量监控功能，同时流量悬浮窗也将无法使用，流量使用将会失去控制，可能造成不必要的资费损失。	    
+确定要关闭吗？"</string>
+    <string name="setting_altert_clear_usage_title">清空统计数据</string>
+    <string name="setting_altert_clear_usage_message">是否清空所有流量统计数据？</string>
+    <string name="setting_altert_month_package_message">请输入每月流量套餐额度</string>
+    <string name="setting_altert_auto_adjust_period_title">设置定期自动校正周期</string>
+    <string name="setting_altert_day_prompt_message">每日流量提醒值设定</string>
+    <string name="setting_altert_month_surplus_message">当每月已用流量达到设定值时,启动提醒。</string>
+    <string name="setting_altert_exceed_prompt_title">TCL 网络监控流量报警</string>
+    <string name="setting_altert_exceed_prompt_message">您本月使用流量已超支，建议关闭网络</string>
+    <string name="setting_altert_usage_warning_prompt_title">TCL手机卫士流量报警</string>
+    <string name="setting_altert_usage_warning_prompt_message">您本月使用的流量已超额定值，建议关闭网络连接。</string>
+    <string name="setting_toast_setMonthPackge_first">请先设置月流量套餐!</string>
+    <string name="setting_toast_noNetworkPackage">大侠,您的口袋是空的,谨慎透支!</string>
+    <!-- day string -->
+    <string name="setting_start_day_1">1日</string>
+    <string name="setting_start_day_2">2日</string>
+    <string name="setting_start_day_3">3日</string>
+    <string name="setting_start_day_4">4日</string>
+    <string name="setting_start_day_5">5日</string>
+    <string name="setting_start_day_6">6日</string>
+    <string name="setting_start_day_7">7日</string>
+    <string name="setting_start_day_8">8日</string>
+    <string name="setting_start_day_9">9日</string>
+    <string name="setting_start_day_10">10日</string>
+    <string name="setting_start_day_11">11日</string>
+    <string name="setting_start_day_12">12日</string>
+    <string name="setting_start_day_13">13日</string>
+    <string name="setting_start_day_14">14日</string>
+    <string name="setting_start_day_15">15日</string>
+    <string name="setting_start_day_16">16日</string>
+    <string name="setting_start_day_17">17日</string>
+    <string name="setting_start_day_18">18日</string>
+    <string name="setting_start_day_19">19日</string>
+    <string name="setting_start_day_20">20日</string>
+    <string name="setting_start_day_21">21日</string>
+    <string name="setting_start_day_22">22日</string>
+    <string name="setting_start_day_23">23日</string>
+    <string name="setting_start_day_24">24日</string>
+    <string name="setting_start_day_25">25日</string>
+    <string name="setting_start_day_26">26日</string>
+    <string name="setting_start_day_27">27日</string>
+    <string name="setting_start_day_28">28日</string>
+    <string name="setting_start_day_29">29日</string>
+    <string name="setting_start_day_30">30日</string>
+    <string name="setting_start_day_31">31日</string>
+
+    <!-- Auto Adjust days -->
+    <string name="setting_auto_adjust_period_3">每3天</string>
+    <string name="setting_auto_adjust_period_week">每周</string>
+    <string name="setting_auto_adjust_period_everyday">每天</string>
+    <string name="setting_auto_adjust_period_close">关闭</string>
+
+    <!-- common string -->
+    <string name="trigger_button_on">已开启</string>
+    <string name="trigger_button_off">已关闭</string>
+    <string name="common_button_confirm">确认</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="volume_unit_M">M</string>
+    <string name="not_setting">未设置</string>
+    <!-- flux moniter -->
+    <string name="network_monitor">流量监控</string>
+    <string name="setting">设置</string>
+    <string name="data_2G_3G">2G/3G</string>
+    <string name="daily_use">日流量使用情况</string>
+    <string name="statistic_list">统计排行</string>
+    <string name="calibration">流量校准</string>
+    <string name="set_package">设置流量套餐</string>
+    <string name="today_use">今日已用：</string>
+    <string name="month_use">本月已用：</string>
+    <string name="month_left">本月剩余：</string>
+    <string name="flux_monitor">流量监控</string>
+    <string name="fire_wall">联网防火墙</string>
+    <string name="net_tip_enough">本月剩余流量充足，请放心使用</string>
+    <string name="net_tip_warn">本月流量套餐即将用完，请注意</string>
+    <string name="net_tip_over">本月流量已超额，请注意资费</string>
+    <string name="net_tip_noset">请设置每月流量限额，以免超额扣费</string>
+    <string name="net_setting_service_not_started">未开启流量监控</string>
+    <string name="statistics_upflow">上传：</string>
+    <string name="statistics_dwflow">下载：</string>
+    <string name="net_adjust_flux_title">调整本月已用流量</string>
+    <string name="net_adjust_flux_input_label">本月已使用:</string>
+    <!-- firewall -->
+    <string name="firewall_title_main">联网软件</string>
+    <string name="firewall_mobile_data">数据上网</string>
+    <string name="firewall_wifi_data">WiFi</string>
+    <string name="loading">加载中…</string>
+    <string name="firewall_no_root_title">未获取root权限</string>
+    <string name="firewall_no_root_msg">系统联网防火墙功能需要root权限才能使用。
+您的手机暂未获取root权限，请先获取root权限。</string>
+	<string name="firewall_set_rule_failed">很抱歉，联网防火墙功能设置失败:(</string>
+</resources>

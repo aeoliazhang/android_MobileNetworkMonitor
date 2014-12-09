@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="dimen_divider_1px">1.0px</dimen>
+    <dimen name="dimen_2dip">2dip</dimen>
+    <dimen name="dimen_5dip">5dip</dimen>
+    <dimen name="dimen_6dip">6dip</dimen>    
+    <dimen name="dimen_10dip">10dip</dimen>
+    <dimen name="dimen_12dip">12dip</dimen>
+    <dimen name="dimen_15dip">15dip</dimen>
+    <dimen name="dimen_20dip">20dip</dimen>
+    <dimen name="dimen_25dip">25dip</dimen>
+    <dimen name="dimen_30dip">30dip</dimen>
+    <dimen name="dimen_40dip">40dip</dimen>
+    <dimen name="dimen_42dip">42dip</dimen>
+    <dimen name="dimen_45dip">45dip</dimen>
+    <dimen name="dimen_50dip">50dip</dimen>
+    
+    <dimen name="dimen_corner_8dip">8dip</dimen>
+    
+    <dimen name="dimen_textsize_10sp">10sp</dimen> 
+    <dimen name="dimen_textsize_12sp">12sp</dimen>
+    <dimen name="dimen_textsize_14sp">14sp</dimen>
+    <dimen name="dimen_textsize_16sp">16sp</dimen> 
+    <dimen name="dimen_textsize_18sp">18sp</dimen> 
+
+    <dimen name="dimen_textsize_20sp">20sp</dimen>    
+    <dimen name="dimen_textsize_19sp">19sp</dimen>    
+    <dimen name="dimen_textsize_22sp">22sp</dimen>
+    <dimen name="dimen_flux_use_text_padding">3dip</dimen> 
+</resources>

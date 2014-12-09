@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_divider">#ffcccccc</color>
+    <color name="color_black">#ff000000</color>
+    <color name="color_gray">#ffcccccc</color>
+    <color name="color_white">#ffffffff</color>  
+    <color name="color_yellow">#ffe7aa29</color> 
+    <color name="color_red">#ffff0000</color>   
+    <color name="color_blue">#ff0000ff</color>
+    <color name="color_green">#ff21b600</color> 
+    <color name="layout_back">#505050</color>
+    <color name="textview_back">#909090</color>
+    <color name="item_bg_selected">#ff84a239</color>
+    <color name="btn_shadow">#ffffffff</color>
+    <color name="btn_text_pressed">#ff945700</color>
+    <color name="btn_text_dialog">#ff0ca800</color>
+    <color name="grey_disable">#ffd8e1e7</color>
+    <color name="color_deep_grey">#ff303030</color> 
+
+<!-- alert dialog custom-->
+    <drawable name="alert_button_bg_normal">#00000000</drawable>
+    <drawable name="alert_button_bg_pressed">#ff84a239</drawable>
+    <drawable name="alert_button_divider">#ffd9d9d9</drawable>
+    <drawable name="alert_item_bg_selected">#ff84a239</drawable>
+    <color name="main_bottom_text_color_selected">#E0E0E0</color>
+    <color name="main_bottom_text_color_unselected">#A0A0A0</color>
+    <color name="color_dark">#ff535353</color>    
+</resources>

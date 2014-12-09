@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color_white"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/alert_seekview_message"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"   
+        android:layout_margin="@dimen/dimen_15dip"      
+        android:textSize="@dimen/dimen_textsize_16sp"        
+        android:textColor="@color/color_black" />
+    
+    <SeekBar android:id="@+id/alert_seekview_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="@dimen/dimen_15dip"
+        android:layout_marginRight="@dimen/dimen_15dip"              
+        style="@style/style_myseekbar"/>
+           
+    <TextView android:id="@+id/alert_seekview_value"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="@dimen/dimen_15dip"	    	    	           
+	    android:textColor="@color/color_black" 
+	    android:gravity="center"
+	    android:textSize="@dimen/dimen_textsize_16sp" />
+</LinearLayout>

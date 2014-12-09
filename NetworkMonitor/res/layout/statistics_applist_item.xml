@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:gravity="center" 
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"    
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+  	
+    <ImageView 
+        android:id="@+id/app_icon" 
+        android:layout_width="@dimen/dimen_42dip" 
+        android:layout_height="@dimen/dimen_42dip" 
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/dimen_5dip"/>
+    
+    <LinearLayout 
+        android:gravity="center_vertical" 
+        android:orientation="vertical" 
+        android:layout_width="0.0dip" 
+        android:layout_height="wrap_content" 
+        android:layout_margin="@dimen/dimen_6dip"         
+        android:layout_weight="1.0">
+        <LinearLayout 
+            android:orientation="horizontal" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            <TextView 
+                android:textSize="@dimen/dimen_textsize_18sp" 
+                android:textColor="@color/color_black" 
+                android:id="@+id/app_name" 
+                android:layout_width="0.0dip" 
+                android:layout_height="wrap_content" 
+                android:singleLine="true"                
+                android:layout_weight="1.0" />
+            <TextView 
+                android:textSize="@dimen/dimen_textsize_18sp" 
+                android:textColor="@color/color_black" 
+                android:gravity="right" 
+                android:id="@+id/app_totalflow" 
+                android:duplicateParentState="true" 
+                android:layout_width="wrap_content"                 
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dip" 
+                android:layout_marginTop="@dimen/dimen_6dip"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:orientation="horizontal" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="@dimen/dimen_6dip">
+            <LinearLayout 
+                android:gravity="left|center" 
+                android:orientation="horizontal" 
+                android:layout_width="0.0dip" 
+                android:layout_height="wrap_content" 
+                android:layout_weight="1.0">
+                <TextView 
+                    android:textSize="@dimen/dimen_textsize_14sp" 
+                    android:textColor="@color/color_gray" 
+                    android:duplicateParentState="true" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content" 
+                    android:text="@string/statistics_upflow" />
+                <TextView 
+                    android:textSize="@dimen/dimen_textsize_14sp" 
+                    android:textColor="@color/color_gray" 
+                    android:id="@+id/app_upflow_value" 
+                    android:paddingLeft="@dimen/dimen_5dip" 
+                    android:duplicateParentState="true" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout 
+                android:gravity="left|center" 
+                android:orientation="horizontal" 
+                android:layout_width="0.0dip" 
+                android:layout_height="wrap_content" 
+                android:layout_weight="1.0">
+                <TextView 
+                    android:textSize="@dimen/dimen_textsize_14sp" 
+                    android:textColor="@color/color_gray" 
+                    android:duplicateParentState="true" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content" 
+                    android:text="@string/statistics_dwflow" />
+                <TextView 
+                    android:textSize="@dimen/dimen_textsize_14sp" 
+                    android:textColor="@color/color_gray" 
+                    android:id="@+id/app_dwflow_value" 
+                    android:paddingLeft="@dimen/dimen_5dip" 
+                    android:duplicateParentState="true" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

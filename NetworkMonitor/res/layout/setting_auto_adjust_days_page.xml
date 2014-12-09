@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_auto_adjust_days_panel"        
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+    android:background="@drawable/list_selector"
+    android:clickable="true">
+    
+	<TextView
+        android:id="@+id/setting_auto_adjust_days_label"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"        
+        android:layout_width="wrap_content"                      
+        android:layout_height="wrap_content"                
+        android:text="@string/setting_label_auto_adjust_days"        
+        android:textSize="@dimen/dimen_textsize_18sp"
+        android:textColor="@color/color_black"        
+        android:paddingLeft="@dimen/dimen_5dip"/>
+    
+    <TextView 
+        android:id="@+id/setting_auto_adjust_days_value"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"        
+        android:layout_width="wrap_content"                      
+        android:layout_height="wrap_content"                
+        android:text=""        
+        android:textSize="@dimen/dimen_textsize_20sp"
+        android:textColor="@color/color_black"        
+        android:paddingLeft="@dimen/dimen_5dip"
+        android:layout_marginRight="@dimen/dimen_10dip"/>    
+</RelativeLayout>

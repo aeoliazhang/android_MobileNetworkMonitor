@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:id="@+id/layout_setting_service_trigger"
+    android:background="@drawable/list_selector"    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"> 
+       
+    <TextView 
+        android:id="@+id/service_lable"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"        
+        android:layout_width="wrap_content"                      
+        android:layout_height="wrap_content"                
+        android:text="@string/setting_label_service"        
+        android:textSize="@dimen/dimen_textsize_18sp"
+        android:textColor="@color/color_black"        
+        android:paddingLeft="@dimen/dimen_5dip"/>
+		
+	<Button 
+	    android:id="@+id/service_switchbtn"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"	    
+	    android:layout_width="wrap_content"   
+	    android:layout_height="@dimen/dimen_30dip"	   	
+	    style="@style/switch_style_button"/>
+
+</RelativeLayout>

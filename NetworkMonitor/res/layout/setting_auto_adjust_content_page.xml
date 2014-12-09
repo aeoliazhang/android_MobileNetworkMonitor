@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"    
+    android:background="@drawable/bg_settings_black_repeat" >
+        
+    <TextView
+        android:id="@+id/auto_adjust_content_disc_label"            
+        android:layout_width="wrap_content"                      
+        android:layout_height="wrap_content"                
+        android:text="@string/setting_label_auto_adjust"        
+        android:textSize="@dimen/dimen_textsize_16sp"
+        android:textColor="@color/color_white"        
+        android:layout_marginLeft="@dimen/dimen_20dip"
+        android:layout_marginRight="@dimen/dimen_20dip"
+        android:layout_marginTop="@dimen/dimen_10dip"/>
+    
+    <LinearLayout 
+        android:id="@+id/auto_adjust_content_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dimen_10dip"       
+        android:background="@drawable/bg_settings_list_page">"
+        
+        <include android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_50dip"
+            layout="@layout/setting_auto_adjust_days_page"/>	        
+		
+		<include layout="@layout/divider"/>
+		
+		<include android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_50dip"
+            layout="@layout/setting_auto_adjust_sms_page"/>	        		
+	    	
+    </LinearLayout>
+    
+	
+</LinearLayout>

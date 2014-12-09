@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+     android:background="@drawable/bg_settings_black_repeat"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+         
+	<LinearLayout android:orientation="vertical" android:id="@+id/setting_parent"	    
+	    
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <LinearLayout android:orientation="vertical"	        
+	        android:background="@drawable/bg_settings_list_page" 	        	     	        
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_margin="@dimen/dimen_10dip">
+			
+	        <include 
+	            android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	            layout="@layout/setting_trigger_page"/>	        
+	    	<include layout="@layout/divider"/>
+	    	
+	    	<include 
+	    	    android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	    	    layout="@layout/setting_month_package_page"/>
+	    	<include layout="@layout/divider"/>
+	    	
+	    	<include 
+	    	    android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	    	    layout="@layout/setting_start_day_page"/>
+	    	<include layout="@layout/divider"/>	   	    	
+	    	
+	    	<!-- include 
+	    	    android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	    	    layout="@layout/setting_auto_adjust_page"/>
+	    	<include layout="@layout/divider"/> -->
+	    	
+	    	<include 
+	    	    android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	    	    layout="@layout/setting_float_window_page"/>	    	
+	    </LinearLayout>	
+	   
+	     
+	    <TextView
+        android:id="@+id/volum_prompt"            
+        android:layout_width="wrap_content"                      
+        android:layout_height="wrap_content"                
+        android:text="@string/setting_label_auto_adjust"        
+        android:textSize="@dimen/dimen_textsize_16sp"
+        android:textColor="@color/color_white"        
+        android:layout_marginLeft="@dimen/dimen_20dip"
+        android:layout_marginRight="@dimen/dimen_5dip"/>
+	    
+	    <LinearLayout android:orientation="vertical"	        
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/bg_settings_list_page"
+	        android:layout_margin="@dimen/dimen_10dip">
+	        
+	        <include android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	            layout="@layout/setting_exceed_prompt_page"/>
+	        <include layout="@layout/divider"/>
+	        
+	        <include android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	            layout="@layout/setting_month_surplus_warning_page"/>
+	        <include layout="@layout/divider"/>
+	        
+	        <include android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	            layout="@layout/setting_day_volum_prompt_page"/>
+	        <include layout="@layout/divider"/>
+	        
+	        <include android:layout_width="fill_parent"
+	            android:layout_height="@dimen/dimen_50dip"
+	            layout="@layout/setting_clear_usage_page"/>	        
+	    </LinearLayout>
+	</LinearLayout>    
+</ScrollView>
+

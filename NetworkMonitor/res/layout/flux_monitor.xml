@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_flux_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <FrameLayout 
+        android:id="@+id/flux_layout_loading"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:visibility="gone">
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:gravity="center"
+		    android:orientation="vertical">
+		    <ImageView
+		        android:id="@+id/flux_loading_image"
+		        android:contentDescription="@null"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"    
+		        android:gravity="center"
+		        android:layout_gravity="center"
+		        android:src="@drawable/loading_round" />
+		
+		    <TextView
+		        android:id="@+id/flux_loading_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		
+		        android:gravity="center_vertical"
+		        android:text="@string/loading"
+		        android:textColor="@color/color_green" />
+	    </LinearLayout>
+    </FrameLayout>
+    <FrameLayout 
+        android:id="@+id/flux_layout"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    <LinearLayout
+	        android:id="@+id/layout_flux_control_panel"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	        <TextView
+	            android:id="@+id/text_usege_tip"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/safe"
+	            android:gravity="center_vertical"
+	            android:paddingBottom="2dip"
+	            android:paddingLeft="10dip"
+	            android:paddingTop="2dip"
+	            android:text="@string/net_tip_enough"
+	            android:textSize="@dimen/dimen_textsize_14sp" />
+	        <FrameLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@color/layout_back"
+	            android:paddingBottom="1dip"
+	            android:paddingTop="1dip" >
+	            <TextView
+	                android:id="@+id/textView_flux_type"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@color/textview_back"
+	                android:text="@string/data_2G_3G"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+	        </FrameLayout>
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	
+	            <FrameLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical" >
+	
+	                <TextView
+	                    android:id="@+id/textview_percent"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="100%"
+	                    android:textSize="@dimen/dimen_textsize_20sp"
+	                    android:textStyle="bold"                    
+	                    android:layout_marginLeft="@dimen/dimen_20dip"
+	                    android:layout_marginRight="@dimen/dimen_20dip"
+	                    android:textAppearance="?android:attr/textAppearanceMedium" />
+	            </FrameLayout>
+	            <View
+	                android:layout_width="1dip"
+	                android:layout_height="match_parent"
+	                android:background="@color/layout_back" />
+	            <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right|fill_horizontal"
+	                android:orientation="vertical" >
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content" >
+	                    <LinearLayout
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="match_parent"
+	                        android:layout_gravity="left"
+	                        android:orientation="vertical" >
+	                        <TextView
+	                            android:id="@+id/textView7"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:padding="@dimen/dimen_flux_use_text_padding"
+	                            android:text="@string/today_use"
+	                            android:textAppearance="?android:attr/textAppearanceSmall" />
+	                        <TextView
+	                            android:id="@+id/textView8"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:padding="@dimen/dimen_flux_use_text_padding"
+	                            android:text="@string/month_use"
+	                            android:textAppearance="?android:attr/textAppearanceSmall" />
+	                        <TextView
+	                            android:id="@+id/textView9"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:padding="@dimen/dimen_flux_use_text_padding"
+	                            android:text="@string/month_left"
+	                            android:textAppearance="?android:attr/textAppearanceSmall" />
+	                    </LinearLayout>
+	                    <LinearLayout
+	                        android:layout_width="fill_parent"
+	                        android:layout_height="match_parent"
+	                        android:layout_gravity="right"
+	                        android:orientation="vertical" >
+	                        <TextView
+	                            android:id="@+id/today_useage"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_gravity="right"
+	                            android:padding="@dimen/dimen_flux_use_text_padding"
+	                            android:text="0M"
+	                            android:textAppearance="?android:attr/textAppearanceSmall" 
+	                            android:textSize="@dimen/dimen_textsize_16sp"/>
+	                        <TextView
+	                            android:id="@+id/this_month_usaged"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_gravity="right"
+	                            android:padding="@dimen/dimen_flux_use_text_padding"
+	                            android:text="0.01M"
+	                            android:textAppearance="?android:attr/textAppearanceSmall" 
+	                            android:textSize="@dimen/dimen_textsize_16sp"/>
+	                        <TextView
+	                            android:id="@+id/this_month_leave"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_gravity="right"
+	                            android:padding="@dimen/dimen_flux_use_text_padding"
+	                            android:text="4.99M"
+	                            android:textAppearance="?android:attr/textAppearanceSmall" 
+	                            android:textSize="@dimen/dimen_textsize_16sp"/>
+	                    </LinearLayout>
+	                </LinearLayout>
+	                <Button
+	                    android:id="@+id/button_calibration"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="30dip"
+	                    android:layout_gravity="center_horizontal"
+	                    android:background="@drawable/selector_btn_green"
+	                    android:text="@string/calibration"
+	                    android:textSize="@dimen/dimen_textsize_16sp" 
+	                    android:textColor="@color/color_green"/>
+	            </LinearLayout>
+	        </LinearLayout>
+	        <FrameLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@color/layout_back"
+	            android:paddingBottom="1dip"
+	            android:paddingTop="1dip" >
+	
+	            <TextView
+	                android:id="@+id/textView_daily_use"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@color/textview_back"
+	                android:text="@string/daily_use"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+	        </FrameLayout>
+	    
+	    
+	    <HorizontalScrollView
+	        android:id="@+id/horizontalScrollView_chart_view"
+	        android:layout_weight="1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dip">
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical" >
+	        	<com.alcatel.master.networkmonitor.ui.ChartView
+	        	    android:id="@+id/layout_chart"
+			        android:layout_width="wrap_content"
+			        android:layout_height="fill_parent"
+			        android:minWidth="1dip"
+			        android:minHeight="1dip"
+			        android:background="@color/color_white"/>
+	        </LinearLayout>
+	    </HorizontalScrollView>
+	    </LinearLayout>
+	</FrameLayout>
+</LinearLayout>
